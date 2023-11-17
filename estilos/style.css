@@ -28,19 +28,29 @@ Lilás: #5f2c82
     left:50%;
     transform: translate(-50%,-50%);
     overflow: hidden;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.678);
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+    transition: wifth 0.3s. height 0.3s;
+    transition-timing-function:ease
  }
  section#login > div#imagem{
     display: block;
     background: url(../imagens/42815255.jpg);
     height: 200px;
     background-size: cover;
+    background-position: center bottom;
  }
  section#login > div#formulario{
     display: block;
     padding: 10px;
+ }
+ div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+ }
+ div#formulario > p {
+    font-size: 1em;
  }
